@@ -1,9 +1,9 @@
 'use client'
 import React from 'react';
-import DiscussionCard from "./DiscussionCard";
-import Stories from "./Stories";
+import DiscussionCard from "./components/DiscussionCard";
+import Stories from "./components/Stories";
 import dummyData from "../../../data/dummyData.json";
-import Sidebar from './Sidebar';  
+import Sidebar from './components/Sidebar';  
 
 import { useState } from 'react';
 
