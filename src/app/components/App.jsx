@@ -1,9 +1,9 @@
 'use client'
 import React from 'react';
-import DiscussionCard from "./components/DiscussionCard";
-import Stories from "./components/Stories";
+import DiscussionCard from "./DiscussionCard";
+import Stories from "./Stories";
 import dummyData from "../../../data/dummyData.json";
-import Sidebar from './components/Sidebar';  
+import SideBar from './SideBar';  
 
 import { useState } from 'react';
 
@@ -33,7 +33,7 @@ function App() {
           <img src="button.svg" className="h-6 w-6 mr-1" alt="Toggle Sidebar" />
         </button>
       </div>
-      {sidebarVisible && <Sidebar />}
+      {sidebarVisible && <SideBar />}
     </div>
   
 
