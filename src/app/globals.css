@@ -17,17 +17,61 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: white;
+ 
+
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.home {
+  padding : 5%;
+  display: grid;
+  gap: 10%;
+  grid-template-columns: repeat(12 , 2fr) ;
+  position: relative;
+}
+.discussion {
+ display: flex;
+ width: max-content;
+ flex-direction: column;
+ margin: 20px;
+}
+.story{
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  margin: 5px;
+}
+h1{
+  color: #FFCCCB;
+  background-color: #808080;
+  width: fit-content;
+  font-size: 2rem;
+}
+.toggleButton {
+  margin-top: 20% ;
+  display: flex;
+  align-items: center;
+  background-color: blueviolet ;
+  height: 100px;
+  width: 10px;
+}
+li{
+  color: white;
+  margin: 5%;
+  margin: 20px;
+
+}
+
+li:hover{
+  background-color: #7687a2;
+  cursor: pointer;
+}
+h2{
+  color: white;
+  font-size : 2em;
 }
